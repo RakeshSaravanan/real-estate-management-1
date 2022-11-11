@@ -4,8 +4,8 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-    "start": "npm run lite",
-    "lite" : "lite-server",
+    "start": "npm run build",
+    "dev": "lite-server --baseDir="dist/real-estate-management"
   },
   "private": true,
   "dependencies": {
